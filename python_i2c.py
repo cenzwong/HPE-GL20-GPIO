@@ -1,13 +1,19 @@
 # python - i2c
 
-import pyGL20
+from pyGL20 import GPIO
+import time
 
-print( bin(pyGL20.digitalReadAll()))
-pyGL20.digitalWriteAll(0b10)
-print(pyGL20.digitalRead(pyGL20.PIN0))
-pyGL20.digitalWrite(pyGL20.PIN7, 1)
-pyGL20.digitalWrite(pyGL20.PIN6, 0)
-pyGL20.digitalWriteToggleAll()
-pyGL20.digitalWriteToggle(pyGL20.PIN7)
+"""
+Please run 
+::
+sudo i2cdetect -l
+::
+to find the coresponding i2c-x bus of "SMBus I801 adapter at f040"
+replace the number x of the below variable.
 
+"""
+IO = GPIO(0)
 
+while True:
+    print(IO.digitalRead(IO.PIN0))
+    time.sleep(0.1)
