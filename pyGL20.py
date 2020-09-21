@@ -98,7 +98,7 @@ def digitalWriteToggleAll():
 def digitalWriteToggle(PINx):
     """Toggle the OUTPUT port specific pin (PIN6, PIN7)"""
     # print(bin(digitalReadAll()))
-    output = (~digitalReadAll() ^ (1 << PINx)) & 0b11
+    output = ~(~digitalReadAll() ^ (1 << PINx)) & 0b11
     # print(output)
     with SMBus(i2c_bus) as bus:
         bus.write_byte_data(i2c_addr,i2c_cmd_OUTPUT, output)
