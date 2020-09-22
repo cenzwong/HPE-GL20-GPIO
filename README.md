@@ -84,6 +84,9 @@ while True:
 digitalReadAll(self) -> int:
 """Read all pin and return in byte form
 
+Parameters
+----------
+null
 Return
 ----------
 int
@@ -98,7 +101,6 @@ digitalRead(self, PINx) -> bool:
 Parameters
 ----------
 PINx : PIN0, PIN1, ... PIN7
-
 Return
 ----------
 bool
