@@ -19,24 +19,25 @@ This config is routed internally, cannot be changed. Using other config could ca
 
 |||
 |---|---|
+| DI | Pull-up|
 | DO | Open collector |
-| DI | PUll-up|
 
-### Set up Environment
+
+### STEP 1: Set up Environment
 
 ```sh
 # Installing the i2ctools
 sudo apt install i2c-tools
 ```
 
-### Check the Environment Variable
+### STEP 2: Check the Environment Variable
 ```sh
 # detect which smbus is the used
 sudo i2cdetect -l
 ```
 **NOTE**: look for the one with name *SMBus I801 adapter at f040*. This will be in format of *i2c-x*.
 
-### Python Usage
+### STEP 3: Python Setup
 ```sh
 # install smbus2 library
 sudo pip3 install smbus2
