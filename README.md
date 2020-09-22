@@ -69,7 +69,7 @@ sudo i2cdetect -l
 to find the coresponding i2c-x bus of "SMBus I801 adapter at f040"
 replace the number x of the below variable.
 """
-IO = GPIO(0)
+IO = GPIO(0) # This means i2c-0
 
 while True:
     print(IO.digitalWrite(IO.PIN6, True))
@@ -103,7 +103,7 @@ Return
 bool
     - a value specify all state including OUTPUT port. 0 is LOW, 1 is HIGH
 ```
-
+"""
 #### digitalWrite/digitalWriteAll/digitalWriteToggle/digitalWriteToggleAll
 ```py
 digitalWriteAll(value: int):
