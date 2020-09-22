@@ -98,12 +98,13 @@ digitalRead(self, PINx) -> bool:
 Parameters
 ----------
 PINx : PIN0, PIN1, ... PIN7
+
 Return
 ----------
 bool
     - a value specify all state including OUTPUT port. 0 is LOW, 1 is HIGH
-```
 """
+```
 #### digitalWrite/digitalWriteAll/digitalWriteToggle/digitalWriteToggleAll
 ```py
 digitalWriteAll(value: int):
