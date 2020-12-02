@@ -1,6 +1,9 @@
 # HPE-GL20-GPIO
 This is the sample python script for accessing the HPE GL20 IoT Gateway's GPIO. This is not the official module support, use it on your own risk.
 
+# gRPC Service
+You might want to use gRPC server to speed up deployment
+https://github.com/helloezmeral/HPE-GL20-gRPC
 ## Getting Started
 ### Background
 You need to have [HPE GL20 IoT Gateway](https://buy.hpe.com/us/en/servers/edgeline-systems/edgeline-systems/edgeline-intelligent-gateways/hpe-gl20-iot-gateway/p/1008670391),  purchase it via local channel: 
