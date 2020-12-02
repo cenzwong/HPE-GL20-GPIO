@@ -16,7 +16,7 @@ You can check the offical document [here](https://support.hpe.com/hpesc/public/d
 
 This configuration is routed internally and cannot be changed. Using other configuration could cause damgae to the internal circuitry.
 
-![](https://github.com/helloezmeral/HPE-GL20-GPIO/blob/master/.doc/image/GL20_DIO.png?raw=true)
+![](https://github.com/helloezmeral/HPE-GL20-GPIO/blob/master/.doc/image/GL20_DIO.png?raw=true)\
 
 | Digital I/O | PIN0-5 | PIN6-7 | PIN8-9|
 ---|---|---|---
@@ -47,7 +47,7 @@ sudo i2cdetect -l
 ```
 **NOTE**: look for the one with name *SMBus I801 adapter at f040*. This will be in format of *i2c-x*.
 ![](https://github.com/helloezmeral/HPE-GL20-GPIO/blob/master/.doc/image/i2cdetect.png?raw=true)
-This output shows the I2C connector is conected as Bus 0.
+- This output shows the I2C connector is conected as Bus 0.
 
 ### STEP 3: Python Setup
 ```sh
