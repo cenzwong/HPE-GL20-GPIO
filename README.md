@@ -8,7 +8,7 @@ https://github.com/helloezmeral/HPE-GL20-gRPC
 ### Background
 You need to have [HPE GL20 IoT Gateway](https://buy.hpe.com/us/en/servers/edgeline-systems/edgeline-systems/edgeline-intelligent-gateways/hpe-gl20-iot-gateway/p/1008670391),  purchase it via local channel: 
 
-![HPE GL20 IoT Gateway](https://assets.ext.hpe.com/is/image/hpedam/s00004847?$thumbnail$&.png)
+![image](https://user-images.githubusercontent.com/44856918/118230724-b185f980-b4c0-11eb-8078-986fca038465.png)
 
 You can check the offical document [here](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00008434en_us)
 
